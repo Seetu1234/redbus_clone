@@ -1,0 +1,8 @@
+.card{
+    display: flex;
+    
+}
+.card-child-2{
+    display: flex;
+    flex-direction: column;
+}

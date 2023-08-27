@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Menu-Container{
+    background-image: url("../../public/images/HomeBannerImg.svg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    width: 100vw;
+    height: 70vh;
+    position: absolute;
+    top: 30px;
+    border: 2px solid red; 
+    display: flex; 
+}
+.Menu{
+    width: 60vw;
+    height: 15vh;
+    position: absolute;
+    top: 20vh;
+    left: 20vw;
+    display:flex;
+    background-color: white;
+    border-radius: 30px;
+}
+.Menu-1, .Menu-2, .Menu-3 {
+    width: 25%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Menu-4{
+    width:25%;
+    background-color: #d84e55;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
