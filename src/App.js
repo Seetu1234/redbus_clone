@@ -1,7 +1,8 @@
 import './App.css';
 import Navbar from "./components/Navbar";
 import FromAndTo from "./components/From_To";
-import Card from "./components/card";
+import Trending from "./components/tending_offers";
+import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div className="App">
@@ -9,7 +10,9 @@ function App() {
         <Navbar></Navbar>
       </div>
       <FromAndTo></FromAndTo>
-      <Card img_link="" content1="" content2="" color1="" color2=""></Card>
+
+      <Trending></Trending>
+      
     </div>
   );
 }

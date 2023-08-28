@@ -1,5 +1,6 @@
 .Navbar{
     z-index: 1;
+    position: sticky;
     display: flex;
 }
 /* logo css */

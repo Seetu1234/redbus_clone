@@ -9,8 +9,8 @@
     background-size: 100vw;
     width: 100vw;
     height: 70vh;
-    position: absolute;
-    top: 30px;
+    /* position: absolute;
+    top: 30px; */
     border: 2px solid red; 
     display: flex; 
 }

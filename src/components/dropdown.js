@@ -1,31 +1,29 @@
-import {Dropdown,DropdownToggle,DropdownMenu,DropdownItem} from 'reactstrap';
+import {DropdownToggle,DropdownMenu,DropdownItem, UncontrolledDropdown} from 'reactstrap';
+import {Row, Col, Container} from "reactstrap";
 function Example(){
     return (
-                    <div
-            style={{
-                border: '1px solid #000',
-                height: 100,
-                overflow:'hidden',
-                padding: '8px',
-                width: 300
-            }}
-            >
-            <Dropdown toggle={function noRefCheck(){}}>
-                <DropdownToggle caret>
-                Dropdown
+            <div>
+                <Container>
+                    <Row>
+                        <Col>
+
+                            <UncontrolledDropdown  inNavbar>
+                <DropdownToggle nav caret>
+                    account
                 </DropdownToggle>
-                <DropdownMenu container="body">
-                <DropdownItem onClick={function noRefCheck(){}}>
-                    Action 1
-                </DropdownItem>
-                <DropdownItem onClick={function noRefCheck(){}}>
-                    Action 2
-                </DropdownItem>
-                <DropdownItem onClick={function noRefCheck(){}}>
-                    Action 3
-                </DropdownItem>
+                <DropdownMenu right>
+                    <DropdownItem>cancel ticket</DropdownItem>
+                    <DropdownItem>change travel date</DropdownItem>
+                    <DropdownItem>Show my ticket</DropdownItem>
+                    <DropdownItem>Email/SMS</DropdownItem>
+                    <DropdownItem divider />
+                    <DropdownItem>Login/SignUp</DropdownItem>
                 </DropdownMenu>
-            </Dropdown>
+                            </UncontrolledDropdown>
+                        </Col>
+                    </Row>
+                </Container>
+            
             </div>
     );
 }
