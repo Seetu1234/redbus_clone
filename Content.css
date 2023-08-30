@@ -1,0 +1,51 @@
+.Menu-Container {
+  background-image: url("https://www.redbus.in/bus-hire/images/mounamentsBackground.svg");
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  width: 100vw;
+  height: 40vh;
+  /* position: absolute;
+    top: 30px; */
+
+  display: flex;
+  position: relative;
+}
+.header {
+  display: flex;
+  flex-shrink: 0;
+  color: white;
+  margin-left: 90%;
+  list-style-type: none;
+  white-space: nowrap;
+  margin-top: 5%;
+}
+.heading {
+  margin-top: 5%;
+}
+.tag {
+  color: white;
+  text-decoration-line: none;
+  justify-content: space-evenly;
+  font-weight: 200;
+}
+.headingOne {
+  color: white;
+  font-weight: 400;
+}
+.headingTwo {
+  color: white;
+}
+
+.tel button {
+  background-color: #d84e55;
+  width: 40%;
+  height: 7vh;
+  margin-top: 4%;
+  border-radius: 5%;
+  color: white;
+}
+.box {
+  position: absolute;
+  left: 65%;
+  bottom: 2%;
+}

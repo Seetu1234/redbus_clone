@@ -1,0 +1,28 @@
+h5 {
+  color: red;
+  margin: 1%;
+}
+p {
+  font-size: 110%;
+}
+span {
+  color: #9b9d9b;
+}
+h6 {
+  margin-left: 3%;
+  font-weight: 600;
+  font-size: 110%;
+}
+h3 {
+  font-size: 120%;
+}
+button {
+  background-color: #ed6c6d;
+  color: white;
+  margin: 3%;
+  width: 94%;
+  height: 8vh;
+  font-size: 130%;
+  font-weight: 500;
+  border-radius: 2%;
+}
