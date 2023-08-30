@@ -1,0 +1,36 @@
+.Navbar {
+  z-index: 1;
+  position: sticky;
+  display: flex;
+  background-color: #d84e55;
+  width: 100vw;
+}
+/* logo css */
+.redbus_logo {
+  width: 25vw;
+  padding-right: 0px;
+}
+.Nav-border {
+  border-right: 1px solid rgb(174, 174, 174);
+  height: 4vh;
+  margin-top: 3vh;
+}
+/* Nav-middle css */
+.Nav-middle {
+  width: 10vw;
+  display: flex;
+  white-space: nowrap;
+}
+.tickets {
+  width: 8vw;
+  /* border: 2px solid red; */
+  margin-right: 1vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.tickets a {
+  text-decoration: none;
+  color: white;
+}
