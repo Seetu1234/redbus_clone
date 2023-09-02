@@ -1,0 +1,20 @@
+.ryde_footer_container{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    background-color: #222222;
+}
+
+.ryde_footer_container h4 {
+    color: #797979;
+}
+.ryde_footer_container ul {
+    list-style-type: none;  
+}
+.ryde_footer_container ul li a{
+    text-decoration: none;
+    color: white;
+}
+.ryde_footer_container p{
+    color: white;
+}
