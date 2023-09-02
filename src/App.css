@@ -3,3 +3,14 @@
   z-index: 1;
   background-color: white;
 }
+.ryde_cards{
+  font-family: Montserrat;
+  width: 70vw;
+  height: auto;
+  display: grid;
+  grid-template-columns: 18vw 18vw 18vw;
+  row-gap: 10vh;
+  column-gap: 5vw;
+  grid-template-rows: 50vh 50vh 50vh;
+  border: 2px solid red;
+}

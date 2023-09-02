@@ -1,0 +1,11 @@
+.R_card{
+    /* width:17vw; */
+    height:40vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-radius: 8px;
+    border: 2px solid grey;
+}
+.R_card ul li {
+    margin-bottom: 10px;
+}
